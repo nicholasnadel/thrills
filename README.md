@@ -12,3 +12,4 @@ View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscal
 =========
 For more details, read the [documentation](http://jekyllrb.com/)
 # thrills
+# thrills.github.io
