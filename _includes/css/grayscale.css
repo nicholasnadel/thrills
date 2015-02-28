@@ -4,8 +4,31 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-thrillsmedia {
-    padding-top: 50px;
+#thrillsmedia {
+    padding-top: 100px;
+    padding-bottom: 500px;
+    background-color: white;
+}
+
+#hell {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #444444;
+    font-size: 9pt;
+    background-color: #FAFAFA;
+}
+
+#eyechart {
+    background: url(/img/eyechart.jpg) no-repeat bottom center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+#lurk {
+    background-color: white;
 }
 
 body {
@@ -123,6 +146,7 @@ a:focus {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+
     }
 
     .top-nav-collapse {
@@ -139,7 +163,7 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 0px 0;
     text-align: center;
     color: #fff;
     background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
@@ -149,6 +173,7 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+
 
 quote {
     display: table;
@@ -194,14 +219,15 @@ quote {
 }
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
+    width: auto;
+    height: auto;
+    margin-top: 500px;
+    margin-bottom: auto;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #000000;
     border-radius: 35px;
     font-size: 40px;
-    color: #fff;
+    color: #000000;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -211,7 +237,7 @@ quote {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #69C9F1;
     background: rgba(255,255,255,.1);
 }
 
@@ -271,29 +297,17 @@ quote {
     padding-top: 100px;
 }
 
-.download-section {
+.video-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 100px 100px 100px;
     color: #fff;
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.quote-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(/img/quote.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 #map {
     width: 100%;
@@ -306,15 +320,13 @@ quote {
         padding-top: 200px;
     }
 
-    .download-section {
-        padding: 100px 0;
-    }
+
 
     #map {
         height: 400px;
         margin-top: 250px;
     }
-}
+
 
 .btn {
     text-transform: uppercase;
@@ -327,8 +339,8 @@ quote {
 
 .btn-default {
     border: 1px solid {{ site.color.links }};
-    color: {{ site.color.links }};
-    background-color: transparent;
+    color: #eee;
+    background-color: gray;
 }
 
 .btn-default:hover,
@@ -341,15 +353,22 @@ quote {
 
 ul.banner-social-buttons {
     margin-top: 0;
+    background-color: ;
+
+
 }
 
 ul.banner-social-buttons li {
     margin-bottom: 15px;
+    background-color: ;
+
 }
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         margin-top: 15px;
+        background-color: white;
+
     }
 }
 
@@ -358,10 +377,14 @@ ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
+        background-color: white;
+
     }
 
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
+        background-color: white;
+
     }
 }
 
