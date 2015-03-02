@@ -1,2 +1,0 @@
-# thrills
-# thrills.github.io
