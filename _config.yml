@@ -4,6 +4,7 @@ email: your-email@domain.com
 url: http://thrills.github.io/
 description: "Thrills + Flume: Short Days || Long Nights"
 
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
