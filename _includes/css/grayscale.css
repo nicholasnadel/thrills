@@ -4,23 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-#intro {
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
-.
-
-#hell {
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    color: #444444;
-    font-size: 9pt;
-    background-color: #FAFAFA;
-}
 
 #eyechart {
     background: url(/img/eyechart.jpg) no-repeat bottom center scroll;
@@ -170,7 +154,7 @@ a:focus {
     display: table;
     width: 100%;
     height: fixed;
-    padding: 0px 0;
+    padding: 200px 0;
     text-align: center;
     background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: white;
@@ -345,6 +329,7 @@ quote {
 }
 
 .btn-default {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     border: 0px solid {{ site.color.links }};
     color: #eee;
     background-color: black;
@@ -352,6 +337,7 @@ quote {
 
 .btn-default:hover,
 .btn-default:focus {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     border: 1px solid {{ site.color.links }};
     outline: 0;
     color: {{ site.color.primary-dark }};
@@ -359,6 +345,8 @@ quote {
 }
 
 ul.banner-social-buttons {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
     margin-top: 0;
 
 
