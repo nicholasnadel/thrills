@@ -5,6 +5,16 @@
  */
 
 
+.css-button{ 
+    height: 10px; 
+    width: 100px; 
+    padding-right: 50px;
+    text-align: center; 
+    color: #FFFFFF; 
+    font-family: 'Arial'; 
+    font-size: 18px; 
+    background-color: #000000; 
+}
 
 #eyechart {
     background: url(/img/eyechart.jpg) no-repeat bottom center scroll;
@@ -81,10 +91,9 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid #69C9F1;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #69C9F1;
+    background-color: black;
 }
 
 .navbar-custom .navbar-brand {
@@ -98,7 +107,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #69C9F1;
+    color: black;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -134,6 +143,7 @@ a:focus {
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
+        background-color: black;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -153,7 +163,23 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
-    height: fixed;
+    height: auto;
+    padding: 0px 0;
+    margin-top: 500px;
+    text-align: center;
+    color: #fff;
+    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro2 {
+    display: table;
+    width: 100%;
+    height: auto;
     padding: 200px 0;
     text-align: center;
     background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
@@ -252,6 +278,7 @@ quote {
     -moz-animation-timing-function: linear;
 }
 
+
 @-webkit-keyframes pulse {    
     0 {
         -webkit-transform: scale(1);
@@ -315,21 +342,6 @@ quote {
     }
 
     #map {
-        height: 400px;
-        margin-top: 250px;
-    }
-
-
-.btn {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.btn-default {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     border: 0px solid {{ site.color.links }};
     color: #eee;
     background-color: black;
@@ -347,7 +359,7 @@ quote {
 ul.banner-social-buttons {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 
-    margin-top: 0;
+    margin-top: 10px;
 
 
 }
