@@ -4,11 +4,16 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-#thrillsmedia {
-    padding-top: 100px;
-    padding-bottom: 500px;
-    background-color: white;
+#intro {
+    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
+
+.
 
 #hell {
     font-family: 'Helvetica', 'Arial', sans-serif;
@@ -50,11 +55,11 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
+    background-color: {{ site.color.primary-dark }};
 }
 
 p {
@@ -68,6 +73,8 @@ p {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
     }
 }
 
@@ -90,10 +97,10 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid #69C9F1;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: {{ site.color.primary-dark }};
+    background-color: #69C9F1;
 }
 
 .navbar-custom .navbar-brand {
@@ -107,7 +114,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: #69C9F1;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -121,7 +128,7 @@ a:focus {
 
 .navbar-custom .nav li.active {
     outline: nonte;
-    background-color: rgba(255,255,255,.3);
+    background-color: #69C9F1;
 }
 
 .navbar-custom .nav li a {
@@ -139,7 +146,7 @@ a:focus {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 0px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -162,12 +169,11 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    height: fixed;
     padding: 0px 0;
     text-align: center;
-    color: #fff;
     background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
+    background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -193,6 +199,7 @@ quote {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+    min-height: auto;
 }
 
 .intro .intro-body .brand-heading {
@@ -200,13 +207,15 @@ quote {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 0px;
 }
 
 @media(min-width:767px) {
     .intro {
-        height: 100%;
-        padding: 0;
+        height: 0;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .intro .intro-body .brand-heading {
@@ -214,20 +223,20 @@ quote {
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
+        font-size: 0;
     }
 }
 
 .btn-circle {
-    width: auto;
-    height: auto;
+    width: 70px;
+    height: 70px;
     margin-top: 500px;
-    margin-bottom: auto;
+    margin-bottom: 220px;
     padding: 7px 16px;
-    border: 2px solid #000000;
+    border: 5px solid black;
     border-radius: 35px;
     font-size: 40px;
-    color: #000000;
+    color: black;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -294,7 +303,7 @@ quote {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 .video-section {
@@ -317,10 +326,9 @@ quote {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
-
-
 
     #map {
         height: 400px;
@@ -329,7 +337,6 @@ quote {
 
 
 .btn {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
@@ -338,9 +345,9 @@ quote {
 }
 
 .btn-default {
-    border: 1px solid {{ site.color.links }};
+    border: 0px solid {{ site.color.links }};
     color: #eee;
-    background-color: gray;
+    background-color: black;
 }
 
 .btn-default:hover,
@@ -348,26 +355,25 @@ quote {
     border: 1px solid {{ site.color.links }};
     outline: 0;
     color: {{ site.color.primary-dark }};
-    background-color: {{ site.color.links }};
+    background-color: #69C9F1;
 }
 
 ul.banner-social-buttons {
     margin-top: 0;
-    background-color: ;
 
 
 }
 
 ul.banner-social-buttons li {
-    margin-bottom: 15px;
-    background-color: ;
+    margin-bottom: 0px;
+    background-color: black;
 
 }
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
-        margin-top: 15px;
-        background-color: white;
+        margin-top: 0px;
+        background-color: black;
 
     }
 }
@@ -375,15 +381,15 @@ ul.banner-social-buttons li {
 @media(max-width:767px) {
     ul.banner-social-buttons li {
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         padding: 0;
-        background-color: white;
+        background-color: black;
 
     }
 
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
-        background-color: white;
+        background-color: black;
 
     }
 }
