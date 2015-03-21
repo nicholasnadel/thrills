@@ -1,3 +1,3 @@
 #Thrills + Flume
 ![](img/thrills.png)
--> (www.bythrills.com/logic.html) <-
+->www.bythrills.com/logic.html<-
