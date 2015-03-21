@@ -1,2 +1,2 @@
 # [Thrills + Flume](www.bythrills.com)
-!(/img/thrills.jpg)
+![alt text](/img/thrills.jpg)
