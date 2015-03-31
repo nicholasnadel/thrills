@@ -1,0 +1,41 @@
+[33maea663f[m HEAD@{0}: reset: moving to HEAD@{1}
+[33m85b6a1a[m HEAD@{1}: reset: moving to HEAD^
+[33maea663f[m HEAD@{2}: commit: UI tweaks
+[33m85b6a1a[m HEAD@{3}: commit: update readme
+[33m156924b[m HEAD@{4}: commit: update readme
+[33mcef1004[m HEAD@{5}: commit: update readme
+[33m0a29108[m HEAD@{6}: commit: update readme
+[33mb855d75[m HEAD@{7}: commit: update readme
+[33m5f84764[m HEAD@{8}: commit: update readme
+[33m7b37197[m HEAD@{9}: commit: update readme
+[33m0c71aa2[m HEAD@{10}: commit: update readme
+[33m918ec36[m HEAD@{11}: commit: add readme
+[33m295e965[m HEAD@{12}: commit: add readme
+[33md8b0f14[m HEAD@{13}: commit: add readme
+[33m8c90e46[m HEAD@{14}: checkout: moving from gh-pages to master
+[33m1bd2dfa[m HEAD@{15}: commit: add readme
+[33m948aa25[m HEAD@{16}: merge master: Merge made by the 'recursive' strategy.
+[33m1dc2376[m HEAD@{17}: checkout: moving from master to gh-pages
+[33m8c90e46[m HEAD@{18}: commit: add readme
+[33m970881c[m HEAD@{19}: commit: header needs resizing like style="max-width:100%;height:auto;
+[33me72aeca[m HEAD@{20}: commit: header tweak
+[33m4ac5197[m HEAD@{21}: commit: updated views
+[33m5c4f5dd[m HEAD@{22}: commit: tweaked header
+[33m99a47de[m HEAD@{23}: commit: everything works
+[33m1dc2376[m HEAD@{24}: checkout: moving from gh-pages to master
+[33m1dc2376[m HEAD@{25}: checkout: moving from gh-pages to gh-pages
+[33m1dc2376[m HEAD@{26}: checkout: moving from master to gh-pages
+[33m1dc2376[m HEAD@{27}: merge gh-pages: Fast-forward
+[33m476ef78[m HEAD@{28}: checkout: moving from gh-pages to master
+[33m1dc2376[m HEAD@{29}: commit: first commit
+[33m476ef78[m HEAD@{30}: checkout: moving from gh-pages to gh-pages
+[33m476ef78[m HEAD@{31}: checkout: moving from master to gh-pages
+[33m476ef78[m HEAD@{32}: merge gh-pages: Fast-forward
+[33md4ec6b9[m HEAD@{33}: checkout: moving from gh-pages to master
+[33m476ef78[m HEAD@{34}: checkout: moving from gh-pages to gh-pages
+[33m476ef78[m HEAD@{35}: commit: initial commit
+[33m52c605c[m HEAD@{36}: commit: tweaks
+[33md4ec6b9[m HEAD@{37}: checkout: moving from master to gh-pages
+[33md4ec6b9[m HEAD@{38}: commit: first commit
+[33m73d7bdb[m HEAD@{39}: commit: first commit
+[33m03cc831[m HEAD@{40}: commit (initial): first commit

@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  background: linear-gradient(#ecf0f1, #fff);
+}
+
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+}
+
+.loader-ring {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  transform: skew(30deg,20deg);
+  
+  &:last-of-type {
+    transform: skew(-30deg,-20deg) scale(-1, 1);
+    
+    img {
+      animation-delay: -0.5s;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    animation: rotate 1s linear infinite;
+  }
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
