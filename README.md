@@ -1,3 +1,3 @@
-#Thrills + Flume
+#SDLN
 ![](img/thrills.png)
-->www.bythrills.com/logic.html<-
+->www.thatkidthrills.com/logic.html<-
