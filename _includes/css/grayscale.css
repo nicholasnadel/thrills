@@ -373,28 +373,23 @@ quote {
     border: 1px solid {{ site.color.links }};
     outline: 0;
     color: {{ site.color.primary-dark }};
-    background-color: #69C9F1;
+    background-color: #797979;
 }
 
 ul.banner-social-buttons {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-
     margin-top: 10px;
-
-
 }
 
 ul.banner-social-buttons li {
     margin-bottom: 0px;
     background-color: black;
-
 }
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
-        margin-top: 0px;
+        margin-top: 11px;
         background-color: black;
-
     }
 }
 
